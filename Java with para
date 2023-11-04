@@ -1,0 +1,14 @@
+public class hello{
+    public static void main(String[] args) {
+        if (args.length < 2) {
+            System.out.println("Please provide two arguments.");
+            return;
+        }
+
+        String arg1 = args[0];
+        String arg2 = args[1];
+
+        System.out.println("First argument: " + arg1);
+        System.out.println("Second argument: " + arg2);
+    }
+}
